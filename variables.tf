@@ -8,13 +8,13 @@ variable "cluster_name" {
 }
 
 variable "eks_worker_instance_type" {
-default = "m4.large"
+  default = "m4.large"
 }
 
 variable "eks_worker_desired_capacity" {
-default = "2"
+  default = "2"
 }
 
 variable "aws_region" {
-default = "us-west-2"
+  default = "us-west-2"
 }
